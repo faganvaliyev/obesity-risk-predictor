@@ -1,4 +1,5 @@
 # 🧑‍⚕️ Obesity Risk Predictor
+Interface link: https://obesity-risk-predictor.streamlit.app/
 
 This Streamlit app predicts obesity risk based on user inputs. It uses a machine learning model trained on health and lifestyle data.
 
