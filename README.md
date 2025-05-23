@@ -12,4 +12,4 @@ This Streamlit app predicts obesity risk based on user inputs. It uses a machine
 
 ```bash
 cd app
-streamlit run app.py
+streamlit run appv2.py
