@@ -7,7 +7,7 @@ import numpy as np
 model = joblib.load('model.joblib')
 scaler = joblib.load("scaler.joblib")
 
-file_path = r'C:\Users\User\OneDrive\Desktop\tasks\obesityall\app\clean_df.csv'
+file_path = '.\app\clean_df.csv'
 df = pd.read_csv(file_path)
 
 st.set_page_config(page_title="Obesity Risk Predictor", layout="wide", page_icon="🧑‍⚕️")
