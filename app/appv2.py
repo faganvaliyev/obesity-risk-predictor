@@ -4,10 +4,10 @@ import pandas as pd
 from pandas.api.types import CategoricalDtype
 import numpy as np
 
-model = joblib.load('model.joblib')
-scaler = joblib.load("scaler.joblib")
+model = joblib.load('app/model.joblib')
+scaler = joblib.load('app/scaler.joblib')
 
-file_path = '.\app\clean_df.csv'
+file_path = 'app/clean_df.csv'
 df = pd.read_csv(file_path)
 
 st.set_page_config(page_title="Obesity Risk Predictor", layout="wide", page_icon="🧑‍⚕️")
